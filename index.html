@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+  <title>Document</title>
+</head>
+
+<body>
+
+  <nav class="navbar col-12 m-auto navbar-expand-lg navbar-dark bg-dark fixed-top" style="z-index: 999">
+    <div class="container-fluid col-11 m-auto">
+      <a class="navbar-brand" href="#">Física</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mainP">Perfil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#curso">Curso</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Pos">Pós</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Mercado
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#Mercado">Empregabilidade</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#Mercado">Áreas</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#entreV">Vídeo</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-10 col-md-11 m-2">
+          <h1>O que é o curso de <p class="amarelo">Física?</p>
+          </h1>
+          <p id="cursinho" class="mt-">O curso de Física forma profissionais que estudam a matéria, a energia e suas
+            relações e
+            interações, como os seus principais fenômenos e teorias. O curso é oferecido em duas modalidades:
+            bacharelado e licenciatura.
+            O estudante de licenciatura terá as habilidades necessárias para dar aulas no Ensino Fundamental e Médio.
+          </p>
+          <p id="cursinho">Deseja saber mais sobre o curso? Clique aqui !</p>
+          <a href="#mainP" class="readMore" id="ReadMore">Saiba Mais</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="bg-dark pb-5" id="mainP">
+    <div class="container">
+      <div class="row m-0 p-0">
+        <h3 class="text-white display-6 mt-5">Como é o perfil de um físico?</h3>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 p-4">
+          <img class="img-fluid m-3" src="imgs/img1.png" id="img1">
+        </div>
+        <div class="col-20 col-sm-10 col-md-10 col-lg-8">
+          <h4 class="display-6 p-4" id="cor"> Seja disciplinado !</h4>
+          <hr>
+          <p id="perfil">O físico, seja qual for sua área de atuação, deve ser um profissional que, apoiado em
+            conhecimentos
+            sólidos e atualizados em Física, deve ser capaz de abordar e tratar problemas novos e tradicionais e
+            deve estar sempre preocupado em buscar novas formas do saber e do fazer científico ou tecnológico.
+            Em todas suas atividades, a atitude de investigação deve estar sempre presente, embora associada a
+            diferentes formas e objetivos de trabalho. Um bom profissional da Física deve ter curiosidade para saber
+            como os fenômenos acontecem e
+            interesse por estudar as características e propriedades da matéria.
+            Esta é uma profissão que envolve muita pesquisa, então organização, disciplina e poder de concentração são
+            características fundamentais para um físico.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 pb-5" id="curso">
+    <div class="container">
+      <div class="row">
+        <h3 class="text-center display-6 mt-5">Aqui está algumas informações sobre o curso</h3>
+        <div class="card-group" id="cards">
+          <div class="card m-2 bg-dark align-items-center pt-4">
+            <img src="imgs/clock.png" class="card-img-top w-25" alt="...">
+            <div class="card-body mt-3">
+              <h5 class="card-title" style="position: absolute;">Tempo</h5>
+              <p class="card-text mt-5">Tempo mínimo e máximo de intregalização de 3 a 6 anos, respectivamente.</p>
+
+            </div>
+          </div>
+
+          <div class="card m-2 bg-dark align-items-center pt-4">
+            <img src="imgs/nota.png" class="card-img-top w-25" alt="...">
+            <div class="card-body mt-3">
+              <h5 class="card-title">Nota de Corte Média Sisu</h5>
+              <p class="card-text mt-5">UFERSA - 351.54 (Menor Nota)</p>
+              <p class="card-text">FÍSICA - 568.79 (Nota Média)</p>
+              <p class="card-text">IFCE - 744.24 (Maior Nota)</p>
+            </div>
+            <!--
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          -->
+          </div>
+          <div class="card m-2 bg-dark align-items-center pt-4">
+            <img src="imgs/form.png" class="card-img-top w-25" alt="...">
+            <div class="card-body mt-3">
+              <h5 class="card-title">Formação</h5>
+              <p class="card-text mt-5">Bacharelado</p>
+              <p class="card-text">Licenciatura</p>
+              <p class="card-text">Pós-Graduação</p>
+
+            </div>
+            <!--
+            <div class="card-footer">
+              <small class="text-muted">-</small>
+            </div>
+          -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class=" pb-5" id="mainP">
+    <div class="container">
+      <div class="row m-0 p-0">
+        <h3 class="display-6 mt-5">O que é curso de bacharelado?</h3>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 p-4">
+          <img class="img-fluid m-3" src="imgs/Grad2.png" id="img1">
+        </div>
+        <div class="col-20 col-sm-10 col-md-10 col-lg-8">
+          <h4 class="display-6 p-4" id="cor"></h4>
+          <hr>
+          <p id="bac">O curso de bacharelado é um tipo de graduação generalista, de formação científica ou
+            humanística, que prepara profissionais com uma base de conhecimentos teóricos e visão ampla de uma
+            determinada profissão. Depois de formado, o estudante recebe o título de bacharel.
+
+            Para ingressar em um curso de bacharelado, é preciso ter a certificação de conclusão de Ensino Médio e
+            passar por um processo seletivo, que pode ser o vestibular tradicional da instituição, Prouni, Sisu ou, em
+            algumas faculdades privadas, usar a nota do Enem. Com duração média entre três e seis anos, o curso é
+            constituído por atividades teóricas e práticas. Em alguns, há a obrigatoriedade de se fazer estágio e/ou
+            apresentar Trabalho de Conclusão de Curso (TCC).</p>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class=" pb-5" id="mainP">
+    <div class="container">
+      <div class="row m-0 p-0">
+        <h3 class="display-6 mt-5">O que é curso de licenciatura?</h3>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 p-4">
+          <img class="img-fluid m-3" src="imgs/Grad.png" id="img1">
+        </div>
+        <div class="col-20 col-sm-10 col-md-10 col-lg-8">
+          <h4 class="display-6 p-4" id="cor"></h4>
+          <hr>
+          <p id="bac">O curso de licenciatura é uma modalidade de graduação que prepara o universitário para atuar como
+            professor do Ensino Fundamental e/ou Ensino Médio na área do conhecimento em que se formou. Depois de
+            concluir o curso, o profissional recebe o grau de licenciado.
+            Cada curso de licenciatura tem sua grade curricular própria. Uma licenciatura em Física tem matérias
+            sobre Eletromagnetismo, Mecânica e Termodinâmica por exemplo.</p>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg-dark pb-6">
+    <div class="container">
+      <div class="row m-0 p-0">
+        <h3 class="text-center display-6 mt-5" style="color:white">Confira aqui algumas instituições !</h3>
+        <div class="col-md-3 col-sm-6 pb-5" id="t" style="border-radius: 10px;">
+          <div class="our-team mt-5 pb-6 bg-light">
+            <div class="pic">
+              <img src="imgs/anhanguera1.png" class="img-fluid">
+            </div>
+            <div class="content">
+              <span class="post">Anhanguera</span>
+              <ul class="social">
+                <li>
+                  <a href="https://www.anhanguera.com" target="_blank">Saiba mais</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-3 col-sm-6">
+          <div class="our-team mt-5 pb-6 bg-light">
+            <div class="pic">
+              <img src="imgs/ufmg.png" class="img-fluid">
+            </div>
+            <div class="content">
+              <span class="post">Universidade Federal De Minas Gerais</span>
+              <ul class="social">
+                <li>
+                  <a href="https://ufmg.br" target="_blank">Saiba mais</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="our-team mt-5 pb-6 bg-light">
+            <div class="pic">
+              <img src="imgs/unb.png" class="img-fluid">
+            </div>
+            <div class="content">
+              <span class="post">Universidade de Brasília</span>
+              <ul class="social">
+                <li>
+                  <a href="https://www.unb.br" target="_blank">Saiba mais</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="our-team mt-5 pb-6 bg-light">
+            <div class="pic">
+              <img src="imgs/unopar1.png" class="img-fluid">
+            </div>
+            <div class="content">
+              <span class="post">Universidade Norte do Paraná</span>
+              <ul class="social">
+                <li>
+                  <a href="https://www.unopar.com.br" target="_blank">Saiba mais</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="pb-5">
+    <div class="container">
+      <div class="row m-0 p-0">
+        <h3 class="text-black display-6 mt-5">Qual a grade curricular de um curso de física?</h3>
+        <div class="container text-white text-center bg-dark mt-5 pb-5" style="border-radius: 10px ; font-size: 20px;">
+          <div class="row mt-5">
+            <div class="col-sm-3">
+              Probabilidade e Estatística
+            </div>
+            <div class="col-sm-3">
+              Algaritmos Numéricos
+            </div>
+            <div class="col-sm-3">
+              Cálculo
+            </div>
+            <div class="col-sm-3">
+              Estrutura da Matéria Avançada
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-sm-3">
+              Mecânica Quântica
+            </div>
+            <div class="col-sm-3">
+              Física Experimental
+            </div>
+            <div class="col-sm-3">
+              Física
+            </div>
+            <div class="col-sm-3">
+              Estudo dos Fenômenos Físicos
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-sm-3">
+              Geometria Analítica
+            </div>
+            <div class="col-sm-3">
+              Mecânica Analítica
+            </div>
+            <div class="col-sm-3">
+              Química
+            </div>
+            <div class="col-sm-3">
+              Programação de Computadores
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-sm-3">
+              Mecânica
+            </div>
+            <div class="col-sm-3">
+              Termodinâmica
+            </div>
+            <div class="col-sm-3">
+              Álgebra Linear
+            </div>
+            <div class="col-sm-3">
+              Eletromagnetismo
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-dark pb-5" id="Pos">
+    <div class="container">
+      <div class="row m-0 p-0">
+        <h3 class="text-white display-6 mt-5">Como é a pós-graduação em física ?</h3>
+
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 p-4">
+          <img class="img-fluid m-3" src="imgs/img2.png" id="img2">
+        </div>
+        <div class="col-20 col-sm-10 col-md-10 col-lg-8 mt-5">
+          <hr>
+          <p id="pos">Um curso de pós-graduação é realizado após desenvolver a conclusão de uma graduação, é muito
+            indicado para quem quer
+            aumentar as chances de desenvolver a carreira e se aprofundar em uma determinada área.
+          </p>
+          <p id="pos"> A pós-graduação pode ser do tipo stricto sensu (mestrado, mestrado profissional e doutorado) e
+            latu sensu (curso de especialização e MBA)
+            como por exemplo a Astrofísica Gravitacional e Física Espacial.
+          </p>
+          <p id="pos">Profissionais portadores de diploma de nível superior na área das Ciências Exatas têm a
+            possibilidade de fazer uma especialização em diferentes segmentos da área.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="Mercado" id="Mercado">
+    <div class="container">
+      <h3 class="text-center display-6 p-3 mt-5">Veja o mercado de trabalho atualmente e algumas áreas de atuação!</h3>
+      <div class="row pb-5" id="carro">
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+              aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+              aria-label="Slide 5"></button>
+          </div>
+          <div class="carousel-inner" style="border-radius:10px">
+            <div class="carousel-item active">
+              <img src="imgs/teste2g.png" class="d-block w-100 img-fluid" style="filter: brightness(50%);" alt="...">
+              <div class="carousel-caption d-md-block" id="all2">
+                <p>
+                <h4 class="p-4">Empregabilidade e Áreas</h4>
+                </p>
+                <p id="areas">O mercado de trabalho na área de física ainda é restrito, contudo
+                  diferentes áreas demandam esse tipo de profissional, dentre elas,
+                  ensino, indústria, saúde e finanças. O sistema de ensino básico
+                  continua sendo um dos ramos mais promissores, já que a carência
+                  por professores de física ainda é grande.
+                  Média Salarial: R$ 16.699,12.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imgs/teste3g.png" class="d-block w-100" style="filter: brightness(50%);" alt="...">
+              <div class="carousel-caption d-md-block" id="all2">
+                <p>
+                <h4 class="p-5">Física Nuclear</h4>
+                </p>
+                <p id="areas">A física nuclear é uma área de pesquisa com grande relevância
+                  para a compreensão das leis da natureza.
+                <p id="areas">Tem como objetivos estudar
+                  a estrutura dos núcleos atômicos, bem como os mecanismos de
+                  reações nucleares. </p>
+
+                Média salarial: R$ 13.802,22.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imgs/testeg.png" class="d-block w-100" style="filter: brightness(50%);" alt="...">
+              <div class="carousel-caption d-md-block" id="all2">
+                <p>
+                <h4 class="p-5">Física Óptica</h4>
+                </p>
+                <p id="areas">A óptica é uma área da física que busca compreender um grande
+                  número de fenômenos relacionados à luz. Ela pode
+                  ser compreendida como um caso particular da ondulatória, que estuda
+                  o comportamento das ondas de todo o espectro eletromagnético e não
+                  somente da luz visível.
+                  Média salarial: R$ 10.753,17.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imgs/teste5.webp" class="d-block w-100" style="filter: brightness(50%);" alt="...">
+              <div class="carousel-caption d-md-block" id="all2">
+                <p>
+                <h4 class="p-5">Física Acústica</h4>
+                </p>
+                <p id="areas">É uma área da Física que estuda todos os
+                  aspectos relacionados às ondas mecânicas, como o som, o ultrassom
+                  e as vibrações que se propagam em meios sólidos, líquidos e gasosos.
+                  Ela se concentra no estudo de fenômenos como a propagação, reflexão,
+                  absorção e interferência entre ondas sonoras.
+                  Média salarial: R$ 4.020,33.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imgs/teste3g.png" class="d-block w-100" style="filter: brightness(50%);" alt="...">
+              <div class="carousel-caption d-md-block" id="all2">
+                <p>
+                <h4 class="p-5">Física Térmica</h4>
+                </p>
+                <p id="areas">Estudo da combinação da termodinâmica, mecânica
+                  estatística e teoria cinética dos gases. Este assunto guarda-chuva é
+                  tipicamente projetado para estudantes de física e funções para fornecer
+                  uma introdução geral a cada um dos três assuntos básicos relacionados
+                  ao calor.
+                  Média salarial: R$ 2.961,07.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-dark pb-5" id="entreV">
+    <div class="container">
+      <div class="row m-0 p-0">
+        <h3 class="text-white display-6 mt-5">Confira o vídeo abaixo contando mais sobre o curso !</h3>
+        <div class="container" id="inicio">
+          <div class="row m-0 p-0">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-8 p-4">
+              <div class="embed">
+                <iframe id="vid" class="mt-4" src="https://www.youtube.com/embed/IHRQY6DUWY4"></iframe>
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 p-4 text-white">
+              <h4 class="display-6 mt-3">João Vitor Umetsu Kusaka</h4>
+              <hr>
+              <p id="entre">João Vitor Umetsu Kusaka cursa bacharelado em física na UFMG e neste vídeo sua intenção é
+                trazer informações detalhadas de cada grade curricular em relação ao curso de física (bacharelado)
+                e os motivos que fizeram ele a despertar esse interesse na física aplicada.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer id="footer" class="footer-1">
+    <div class="main-footer widgets-dark typo-light">
+      <div class="container">
+        <div class="row" style="justify-content: space-between;">
+
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="widget subscribe no-box">
+              <h5 class="widget-title" style="color:#ff6600;">Sobre<span></span></h5>
+              <p>A Feira de Profissões é um projeto cujo objetivo é ajudar
+                pessoas a decidirem e se interessarem em uma carreira
+                de trabalho.</p>
+            </div>
+          </div>
+
+
+
+
+
+          <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="widget no-box">
+              <h5 class="widget-title" style="color:#ff6600;">Links<span></span></h5>
+              <a href="#" class="m-2" style="text-decoration: none ; color: inherit;">Início</a>
+              <a href="https://www.instagram.com/jao_dxmia/" target="_blank" class="m-2"
+                style="text-decoration: none ; color: inherit;">Contato</a>
+              <a href="#" class="m-2" style="text-decoration: none ; color: inherit;">Outro</a>
+            </div>
+          </div>
+          <br>
+          <br>
+
+
+          <div class="col-xs-12 col-sm-6 col-md-2">
+            <div class="widget no-box">
+              <h5 class="widget-title" style="color:#ff6600;">Infos<span></span></h5>
+              <p>Registro SP</p>
+              <p>jao@gmail.com</p>
+              <p>+55 4002-8922</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <p>Copyright Design JVK © 2022. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+
+</body>
+
+</html>
