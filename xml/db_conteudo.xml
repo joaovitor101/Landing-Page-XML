@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conteudo>
+    <postagem codigo="1">
+        <titulo>Por que não é seguro tomar banho durante uma tempestade?</titulo>
+        <corpo>Primeira Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur optio doloremque doloribus, unde repudiandae necessitatibus, 
+        sapiente quidem natus soluta eos aliquam totam. Placeat voluptatum ea facilis rem excepturi illum voluptate.</corpo>
+        <imagem_1>noticia2.webp</imagem_1>
+    </postagem>
+
+    <postagem codigo="2">
+        <titulo>Forte erupção solar atinge a Terra: que impacto isso pode causar?</titulo>
+        <corpo>Alguma coisa está acontecendo com o nosso Sol. No último dia 11 de julho, uma das regiões da atmosfera solar que exibe manchas despertou a atenção dos
+             observatórios devido a um repentino aumento de seu brilho ultravioleta e raios X. Em seguida, o fenômeno foi observado por radioamadores nos dois lados do 
+             Oceano Pacífico, que tiveram suas transmissões temporariamente interrompidas.</corpo>
+             <corpo2>
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+             </corpo2>
+        <imagem_1>noticia1.webp</imagem_1>
+    </postagem>
+</conteudo>
