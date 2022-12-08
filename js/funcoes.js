@@ -57,15 +57,10 @@ function funcaoPostagem(){
     "<hr class='my-4'>" + 
     "<div class='col-12'>" +
         "<div class='d-flex justify-content-center align-items-center'>" + 
-            "<img src='imgs/noticia/"+ x[n].getElementsByTagName("imagem_2")[0].childNodes[0].nodeValue + "' class='img-fluid mb-5 col-8'>"+
+            "<img src='imgs/noticia/"+ x[n].getElementsByTagName("imagem_1")[0].childNodes[0].nodeValue + "' class='img-fluid mb-5 col-8'>"+
         "</div>" + 
         "<div class='corpo mb-5'>" + 
             "<p>" + x[n].getElementsByTagName("corpo")[0].childNodes[0].nodeValue + "</p>" +
-            "<p>" + x[n].getElementsByTagName("corpo2")[0].childNodes[0].nodeValue + "</p>" +
-            "<p>" + x[n].getElementsByTagName("corpo3")[0].childNodes[0].nodeValue + "</p>" +
-            "<p>" + x[n].getElementsByTagName("corpo4")[0].childNodes[0].nodeValue + "</p>" +
-            "<p>" + x[n].getElementsByTagName("corpo5")[0].childNodes[0].nodeValue + "</p>" +
-            "<p>" + x[n].getElementsByTagName("corpo6")[0].childNodes[0].nodeValue + "</p>" +
         "</div>" +
     "</div>");
 }
