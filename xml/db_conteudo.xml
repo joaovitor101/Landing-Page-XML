@@ -2,8 +2,22 @@
 <conteudo>
     <postagem codigo="1">
         <titulo>Por que não é seguro tomar banho durante uma tempestade?</titulo>
-        <corpo>Primeira Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur optio doloremque doloribus, unde repudiandae necessitatibus, 
-        sapiente quidem natus soluta eos aliquam totam. Placeat voluptatum ea facilis rem excepturi illum voluptate.</corpo>
+        <corpo>Embora a chance de ser atingido por um raio seja baixa, é importante saber como se manter seguro durante uma tempestade deste tipo.
+            Em todo o mundo, cerca de 24 mil pessoas são mortas por raios a cada ano — e outras 240 mil ficam feridas.
+            E a cada 50 mortes, uma ocorre no Brasil, o país com a maior incidência de raios do mundo.</corpo>
+        <corpo2>
+            A maioria das pessoas está familiarizada com as regras de segurança básicas durante uma tempestade, como evitar ficar embaixo de árvores ou perto de 
+            janelas e não falar em telefones fixos com fio (os celulares são seguros).
+            Mas você sabia que deve evitar tomar banho (de chuveiro ou banheira) e lavar a louça durante uma tempestade com raios?
+         </corpo2>
+        <corpo3>
+            Dois elementos básicos fazem com que uma tempestade desse tipo prospere: umidade e ar quente ascendente, que obviamente andam de mãos dadas com o verão.
+            As altas temperaturas e a umidade criam grandes quantidades de ar úmido que sobe para a atmosfera, onde pode formar uma tempestade.
+            As nuvens contêm milhões de gotículas de água e gelo — e a interação delas é o que leva à geração de raios.
+            As gotas de agua que sobem colidem com as gotas de gelo que caem, passando uma carga negativa para elas, e ficando com uma carga positiva.
+        </corpo3>
+        <corpo4> Em uma tempestade de raios, as nuvens agem como enormes geradores de Van de Graaff, separando as cargas elétricas positivas e negativas para criar separações de cargas massivas dentro das nuvens.
+        À medida que as nuvens carregadas se movem sobre a Terra, elas geram uma carga oposta no solo, e é isso que atrai uma descarga de raio em direção ao mesmo.</corpo4>
         <imagem_1>noticia2.webp</imagem_1>
     </postagem>
 
@@ -12,9 +26,45 @@
         <corpo>Alguma coisa está acontecendo com o nosso Sol. No último dia 11 de julho, uma das regiões da atmosfera solar que exibe manchas despertou a atenção dos
              observatórios devido a um repentino aumento de seu brilho ultravioleta e raios X. Em seguida, o fenômeno foi observado por radioamadores nos dois lados do 
              Oceano Pacífico, que tiveram suas transmissões temporariamente interrompidas.</corpo>
-             <corpo2>
-                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+        <corpo2>
+                Uma erupção solar havia acabado de ocorrer. Ou seja, uma emissão repentina de radiação eletromagnética e partículas de energia localizadas 
+                em uma pequena região da atmosfera solar. Uma região onde o campo magnético é especialmente forte e complexo.
              </corpo2>
+        <corpo3>
+                Em muitas ocasiões, uma erupção solar precede um evento muito mais impressionante. O mesmo campo magnético que gerou a explosão se contorce abaixo da superfície do
+                Sol, arrastando enormes quantidades de plasma solar para fora e, como um canhão, as jogando em alta velocidade no espaço.
+                Trata-se de uma ejeção de massa coronal. Diferentemente da radiação proveniente de uma erupção comum, que leva 8 minutos para atingir a Terra viajando na velocidade
+                 da luz, as ejeções de massa coronal são compostas por partículas carregadas que se movem mais lentamente. Isso significa que elas podem levar de algumas horas a 
+                 vários dias para atingir a órbita terrestre.
+             </corpo3>
+        <corpo4>E foi isso que aconteceu. Diferentes erupções de intensidade moderada continuaram a ocorrer, até que, em 15 de julho, uma delas foi acompanhada por uma ejeção espetacular. Claro, com uma peculiaridade: desta vez, se dirige para o nosso planeta. E esperamos ser alcançados por ela em 21 de julho. </corpo4>
         <imagem_1>noticia1.webp</imagem_1>
+    </postagem>
+    <postagem codigo="3">
+        <titulo>Vivemos em uma simulação?</titulo>
+        <corpo>Os físicos vêm tentando explicar há muito tempo por que o universo surgiu com condições apropriadas para a evolução de vida. Por que as leis e as constantes da física assumem exatamente os valores específicos que permitem o desenvolvimento de estrelas, planetas e, por fim, da vida?</corpo>
+        <corpo2>A energia escura, por exemplo, que é a força de expansão do universo, é muito mais fraca do que sugerem as teorias, o que permite que a matéria se aglomere em vez de se partir.
+            Uma resposta comum a essa questão é que vivemos em um multiverso infinito composto de vários universos. Por isso, não seria uma surpresa se pelo menos um desses universos saísse como o nosso.</corpo2>
+        <corpo3>Mas outra resposta é que o nosso universo é uma simulação computadorizada, com alguém (talvez uma espécie alienígena avançada) definindo as condições.
+            Esta última condição é apoiada por um ramo da ciência chamado de Física da Informação. Ela sugere que o espaço-tempo e a matéria não são fenômenos fundamentais. Na verdade, a realidade física seria basicamente composta de bits de informação e, a partir deles, "emerge" nossa experiência de espaço-tempo.</corpo3>
+        <corpo4>
+                Isso nos leva à extraordinária possibilidade de que todo o nosso Universo possa, na verdade, ser uma simulação de computador.
+                A ideia não é nova. Em 1989, o conceituado físico norte-americano John Archibald Wheeler sugeriu que o universo é fundamentalmente matemático e pode ser observado emergindo a partir da informação. Ele cunhou o famoso aforismo "it from bit" (ou seja, cada partícula do universo vem de um bit de informação).
+                Em 2003, o filósofo Nick Bostrom, da Universidade de Oxford, no Reino Unido, formulou sua hipótese da simulação. Ele argumenta que, na verdade, é muito provável que nosso universo seja uma simulação.
+            </corpo4>
+        <imagem_1>noticia3.jpg</imagem_1>
+    </postagem>
+    <postagem codigo="3">
+        <titulo>Por que o tempo só anda para frente, nunca para trás?</titulo>
+        <corpo>A flecha do tempo começou sua jornada no Big Bang e, no dia em que o universo morrer, não haverá mais passado e futuro. Mas, até lá, o que impulsiona o tempo sempre para frente?
+            Quando Isaac Newton publicou seus famosos Princípios Matemáticos da Filosofia Natural em 1687, suas três elegantes leis do movimento responderam uma série de questões. Sem elas, não teríamos conseguido levar pessoas à Lua 282 anos depois.
+        </corpo>
+        <corpo2>Mas essas leis trouxeram um novo problema para a física, que só foi totalmente percebido séculos depois de Newton e continua intrigando os cosmólogos até hoje.
+            A questão é que as leis de Newton funcionam duas vezes mais do que poderíamos esperar.</corpo2>
+        <corpo3>Elas descrevem o mundo em que vivemos todos os dias — o mundo das pessoas, o movimento dos ponteiros do relógio e até a queda apócrifa de certas maçãs — mas também representam muito bem um mundo no qual as pessoas andam para trás, os relógios andam no sentido inverso, da tarde para a manhã, e as frutas sobem do chão para os seus galhos na árvore.</corpo3>
+        <corpo4> Virtualmente todas as teorias básicas da física desde então funcionaram tão bem quando avançamos no tempo quanto no sentido inverso, segundo o físico italiano Carlo Rovelli, do Centro de Física Teórica de Marselha, na França. Ele é autor de vários livros, incluindo A Ordem do Tempo (Ed. Objetiva, 2018).
+
+            "Desde Newton, passando pela teoria do eletromagnetismo de James Clerk Maxwell, pelos trabalhos de Einstein, até a mecânica quântica, a teoria do campo quântico, a relatividade geral e até a gravidade quântica, não há distinção entre o passado e o futuro", afirma Rovelli.</corpo4>
+        <imagem_1>noticia4.jpg</imagem_1>
     </postagem>
 </conteudo>
